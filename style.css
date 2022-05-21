@@ -1,0 +1,412 @@
+/* font-family: 'Cardo', serif;
+font-family: 'Cardo', serif;
+*/
+body{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Oswald', serif;
+    background-color: #F9F9F9;
+
+}
+.font-cardo{
+    font-family: 'Cardo',  serif !important;
+}
+main{
+    margin-top: 120px !important;
+}
+/* =============================fonts start
+============================================= */
+.f-57{
+    font-size: 42px;
+    font-weight: 700;
+}
+.f-45{
+    font-size: 35px;
+    font-weight: 700;
+}
+.f-35{
+    font-size: 32px;
+    font-weight: 400;
+}
+.f-32{
+    font-size: 28px;
+    font-weight: 400;
+}
+.f-46{
+    font-size: 46px;
+    font-weight: 700;
+color: #000000;
+text-transform: capitalize;
+}
+.f-40{
+    font-size: 40px;}
+.f-56{
+    font-size: 56px;
+    font-weight: 700;
+color: #000000;
+text-transform: capitalize;
+}
+.f-22{
+    font-size: 22px;
+}
+.f-24{
+    font-size: 24px;
+    font-weight: 700;
+}
+.f-18{
+    font-size: 18px;
+    font-weight: 500;
+}
+.f-16{
+    font-size: 16px !important;
+    font-weight: 400;
+}
+
+/* fonts colors */
+.text-blue{
+    color: #31406D;
+}
+.text-lightt{
+color: rgba(112, 112, 112, 0.706);
+}
+.text-lightt-2{
+    color: #C1C6D3 !important;
+    }
+    .text-lightt-3{
+        color:#C1C6D3;
+    }
+    
+
+/* font famlies */
+.text-medium{
+    font-weight: 500;
+}
+.text-regular{
+    font-weight: 400 !important;
+}
+.text-bold{
+    font-weight: 700 !important;
+}
+
+/* ======================================fonts end
+=================================================== */
+.cursor{
+    cursor: pointer;
+}
+
+
+
+
+/* ===========================Home Page========================== */
+.top-bar{
+    padding: 10px 0px !important;
+    background-color:  #F9F9F9;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    box-shadow: 0px 3px 30px #00000014;
+}
+
+.logo img{
+    width: 300px;
+height: 60px;
+}
+.nav-link{
+    color: #000000;
+    font-size: 16px;
+    font-weight: 700;
+}
+.nav-btn{
+    width: 170px;
+    height: 50px;
+    background-color: #FFCE00;
+border-radius: 8px;
+opacity: 1;
+border: none;
+}
+.dropdown-menu{
+    background-color:  #F9F9F9 ;
+}
+.hero-section{
+    background-image:radial-gradient(closest-side at 53% 50%, #31406D00 -20%, #31406DC7 64%, #31406D 100%) ,url(./images/Mask\ Group\ 34.png);
+    padding: 60px 0px;
+    background-repeat: no-repeat;
+    object-fit: contain;
+   background-size: cover;
+   background-position: right;
+    width: 100%;
+}
+.hero-section-1{
+    background-image:radial-gradient(closest-side at 53% 50%, #31406D00 -20%, #31406DC7 64%, #31406D 100%) ,url(./images/Mask\ Group\ 43.png);
+    padding: 60px 0px;
+    background-repeat: no-repeat;
+    object-fit: contain;
+   background-size: cover;
+   background-position: right;
+    width: 100%;
+}
+.hero-img{
+    width: 501px;
+height: 100%;
+}
+.polichief-logo-graph{
+    position: relative;
+    }
+    .polichief-logo{
+    position: absolute;
+    top: 37%;
+    left: 24%;
+    height: 50px;
+    width: 130px;
+    }
+/* section 2 */
+.partners{
+    padding: 50px;
+    background-color: rgba(255, 204, 0, 0.187) ;
+}
+
+.nmt-30{
+    margin-top: -30px;
+}
+.card{
+    background-color: white;
+    padding:20px 10px;
+    border-radius: 7px 7px 0px 0px;
+    margin: 3px;
+    border-bottom: 3px solid #31406D;
+  
+    min-height: 130px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.partners-img{
+    min-height: 100px;
+    margin-bottom: 10px;
+}
+/* section products */
+.card-1{
+    background-color: white;
+    border-radius: 16px;
+    padding: 20px;
+}
+.arrow-btn{
+    background-color: transparent;
+    border: none;
+}
+.arrow-btn a{
+    text-decoration: none;
+}
+.partners-text-1{
+    min-height: 210px;
+}
+.partners-img-1 img{
+    min-height: 120px;
+}
+/* other products */
+.other-products{
+    background-color: #31406D;
+    position: relative;
+    border-radius: 26px;
+    padding:30px 0px;
+}
+.others-design{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+.simple-text{
+    text-decoration: none;
+}
+/* security section */
+/* #E3E6EE */
+.security{
+background-color: #E3E6EE ;
+padding: 40px 0px;
+}
+.slider{
+    padding: 10px;
+}
+.carousel-indicators [data-bs-target]{
+    height: 15px !important;
+    width: 15px !important;
+    border-radius: 100%;
+    background-color: #31406D;
+    margin-bottom: -0px !important;
+}
+.carousel-item {
+    position: relative;
+    padding: 30px;
+}
+.card-design{
+    position: absolute;
+    top: 10px;
+    left: 0px;
+    z-index: 100;
+    
+}
+.carousel-inner{
+    min-height: 410px !important;
+}
+/* footer */
+.footer{
+    background-color: #31406D;
+    padding: 50px 0px;
+}
+.footicon{
+    height: 22px;
+    width: 22px;
+}
+.foot-img img{
+    height: 68px ;
+    width: 68px;
+    border-radius: 100%;
+}
+
+
+
+/* ==================================================
+products page
+============================================== */
+.speak{
+    background-image:
+    linear-gradient( to right,rgba(49, 64, 109, 0.67),rgba(49, 64, 109, 0.67)),
+    url(./images/Mask\ Group\ 41.png);
+
+    background-repeat: no-repeat;
+    object-fit: cover;
+    background-size: cover;
+    width: 100%;
+    padding: 50px 50px;
+    border-radius: 30px;
+}
+.demo-input{
+    position: relative;
+}
+.demo-input input{
+    background-color: #4F5D83;
+    font-size: 16px;
+    color: white;
+    padding: 10px 20px;
+    width: 100%;
+    border: none;
+    border-radius: 11px;
+    height: 72px;
+}
+.demo-input input::placeholder{
+    color: white;
+}
+.select2-container--default .select2-selection--multiple{
+    background-color: #7281A8 !important;
+    font-size: 16px !important;
+    color: white !important;
+    width: 100% !important;
+    border: none !important;
+    border-radius: 11px !important;
+    min-height: 54px !important;
+    padding: 10px 20px  0px 20px!important;
+}
+.select2-container--default .select2-selection--multiple .select2-selection__choice{
+    width: 100% !important;
+    background-color: #7281A8 !important;
+}
+.select2-container .select2-search--inline .select2-search__field{
+    height: 24px !important;
+    font-family: 'Oswald', serif !important;
+}
+.dropdown-toggle::after{
+    display: inline-block !important;
+    margin-left: 0.255em;
+    vertical-align: 0.255em;
+    content: "";
+    border-top: 0.3em solid;
+    border-right: 0.3em solid transparent;
+    border-bottom: 0;
+    border-left: 0.3em solid transparent;
+}
+.email-btn{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.product-img{
+   width: 80%;
+}
+/* ===============================
+about page
+============================= */
+.hero-section-2{
+    background-image:radial-gradient(closest-side at 53% 50%, #31406DC7 64%, #31406D 100%) ,url(./images/a.png);
+    padding: 60px 0px;
+    background-repeat: no-repeat;
+    object-fit: contain;
+   background-size: cover;
+   background-position: right;
+    width: 100%;
+}
+.about{
+    background-color: #E3E6EE;
+    border-radius: 35px;
+    overflow: hidden;
+    
+}
+.about-text{
+padding: 20px 10px 20px 30px;
+}
+.h-100{
+    height: 100% !important;
+}
+.about-img2{
+    height: 100%;
+    width: 100%;
+     margin-top: -30px;
+}
+/* =========================================
+demo page
+============================================= */
+.top-bar-1{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+box-shadow: 0px 3px 30px #00000014;
+}
+.demo{
+    background-image:url(./images/Mask\ Group\ 46.png);
+    padding: 60px 0px;
+    background-repeat: no-repeat;
+    object-fit: contain;
+   background-size: cover;
+   background-position: right;
+   height: 100%;
+   margin-top: -48px;
+}
+.demo-text{
+    margin-left: 120px;
+}
+.demo-input-1{
+    width: 85% !important;
+   
+}
+.demo-input-1 input{
+    background-color: #7281A8;
+    margin-bottom: 10px;
+   height: 58px !important;
+}
+
+.demo-input-1 textarea{
+    background-color: #7281A8;;
+    font-size: 16px;
+    color: white !important;
+    padding: 10px 20px;
+    width: 100%;
+    border: none;
+    border-radius: 11px;
+    margin-bottom: 10px;
+  
+}
+.demo-input-1 textarea::placeholder{
+  
+    color: white !important;
+    
+}

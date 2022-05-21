@@ -1,0 +1,183 @@
+@media only screen and (min-width:1600px){
+    .nav-link{
+        font-size: 22px !important;
+    }
+    .nav-btn{
+        width: 200px;
+        
+    }
+    .container{
+        max-width: 1500px;
+    }
+    .f-57{
+        font-size: 57px;
+        font-weight: 700;
+    }
+    .f-32{
+        font-size: 32px;
+        font-weight: 400;
+    }
+    .hero-img{
+        width: 551px;
+    height: 465px;
+    }
+    .hero-section{
+        background-size: cover;
+    }
+    .f-35{
+        font-size: 35px;
+        font-weight: 400;
+    }
+    .f-45{
+        font-size: 45px;
+        font-weight: 700;
+    }
+    .f-16{
+        font-size: 20px !important;
+    }
+    .f-18{
+        font-size: 22px !important;
+    }
+    
+}
+@media only screen and (min-width:1400px){
+  
+    .polichief-logo{
+       
+        left: 27%;
+     
+        }
+}
+@media only screen and (max-width:1200px){
+    .about-img{
+        border-radius: 25px;
+       
+    }
+    .polichief-logo{
+        height: 50px;
+         width: 110px;
+        left: 20%;
+        }
+   
+}
+@media only screen and (max-width:1100px){
+    .partners-text-1{
+        min-height: 270px;
+    }
+    .hero-img{
+        width: 401px;
+    height: 305px;
+    }
+    .logo img{
+        width: 280px;
+    height: 55px;
+    }
+    .polichief-logo{
+        height: 50px;
+         width: 110px;
+        left: 23%;
+    }
+    .card{
+        min-height: 180px;
+
+    }
+}
+
+@media only screen and (max-width:991px){
+    .demo{
+       margin-top: 0px;
+    }
+    .polichief-logo{
+        height: 50px;
+         width: 110px;
+        left: 33%;
+    }
+
+}
+
+@media only screen and (max-width:767px){
+    
+    .polichief-logo{
+        height: 50px;
+         width: 110px;
+        left: 27%;
+    }
+
+}
+@media only screen and (max-width:576px){
+    .polichief-logo{
+        height: 33px;
+         width: 80px;
+        left: 33%;
+    }
+    .speak{
+        padding: 20px 10px;
+    }
+    .hero-img{
+        width: 310px;
+    height: 100%;
+    }
+    .logo img{
+        width: 180px;
+    height: auto;
+    margin-bottom: -20px;
+    }
+    .f-57{
+        font-size: 32px;
+    }
+    .f-32{
+        font-size: 24px;
+    }
+    .f-46{
+        font-size: 36px;
+        font-weight: 700;
+    color: #000000;
+    text-transform: capitalize;
+    }
+    .f-45{
+        font-size: 30px;
+    }
+    .t-center{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .email-btn{
+        width: 130px;
+        padding: 5px !important;
+    }
+    .email-btn a{
+        font-size: 14px;
+        white-space: nowrap;
+    }
+    .email-btn{
+        right: 10px;
+      
+    }
+    .demo-input {
+    margin-top: 20px;
+    }
+    .about-text{
+        padding: 15px;
+        }
+}
+
+@media only screen and (max-width:520px){
+    .polichief-logo{
+       
+        left: 30%;
+    }
+}
+@media only screen and (max-width:425px){
+    .polichief-logo{
+       
+        left: 26%;
+    }
+}
+@media only screen and (max-width:365px){
+    .polichief-logo{
+       
+        left: 21%;
+    }
+}

@@ -47,6 +47,12 @@
         left: 27%;
      
         }
+        .partners-text-1{
+            min-height: 195px;
+        }
+        .arrow-btn {
+            margin-top: 0px !important;
+        }
 }
 @media only screen and (max-width:1200px){
     .about-img{
@@ -102,7 +108,9 @@
          width: 110px;
         left: 27%;
     }
-
+    .partners-text-1{
+        min-height: 100px;
+    }
 }
 @media only screen and (max-width:576px){
     .polichief-logo{

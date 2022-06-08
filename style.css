@@ -169,6 +169,12 @@ main {
   height: 50px;
   width: 130px;
 }
+.logo-img{
+  height: 100px !important;
+}
+.nav-btn a{
+  white-space: nowrap;
+}
 /* section 2 */
 .partners {
   padding: 30px 50px 30px 50px;

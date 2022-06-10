@@ -97,7 +97,9 @@
                         aria-labelledby="navbarDropdown"
                       >
                         <li>
-                          <a class="dropdown-item"
+                          <a
+                            class="dropdown-item"
+                            href="Election-Worker-Management.html"
                             >Election Worker Management</a
                           >
                         </li>
@@ -178,8 +180,9 @@
                 <input
                   type="email"
                   name=""
-                  id=""
+                  id="email2"
                   placeholder="Email"
+                  value=""
                   required
                 />
 
@@ -231,28 +234,28 @@
                   <div
                     class="col-lg-5 d-flex flex-column justify-content-center align-items-center"
                   >
-                  <div class="d-flex mt-3">
-                    <div class="me-3 mt-1">
-                      <svg
-                        xmlns="http://www.w3.org/2000/svg"
-                        width="30"
-                        height="30"
-                        viewBox="0 0 24 24"
-                        fill="none"
-                        stroke="white"
-                        stroke-width="2"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
-                        class="feather feather-mail"
-                      >
-                        <path
-                          d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"
-                        ></path>
-                        <polyline points="22,6 12,13 2,6"></polyline>
-                      </svg>
+                    <div class="d-flex mt-3">
+                      <div class="me-3 mt-1">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="30"
+                          height="30"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="white"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          class="feather feather-mail"
+                        >
+                          <path
+                            d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"
+                          ></path>
+                          <polyline points="22,6 12,13 2,6"></polyline>
+                        </svg>
+                      </div>
+                      <div class="f-22 text-white">info@konnech.com</div>
                     </div>
-                    <div class="f-22 text-white ">info@konnech.com</div>
-                  </div>
                     <div class="d-flex mt-3">
                       <div class="me-3">
                         <svg
@@ -274,7 +277,6 @@
                       </div>
                       <div class="f-22 text-white">517-381-1830</div>
                     </div>
-                   
                   </div>
                 </div>
               </div>
@@ -284,7 +286,7 @@
       </section>
     </main>
 
-   <footer class="footer mt-4">
+    <footer class="footer mt-4">
       <div class="container">
         <div class="row">
           <div class="col-lg-7">
@@ -305,9 +307,16 @@
                 </div>
               </div>
               <p class="f-16 font-cardo mt-3 text-lightt-2">
-                “The strong partnerships we have formed with election administrators over the years have helped us continuously improve our  PollChief<sup>®</sup> Election management system since 2006. Each partnership is a special opportunity to make these tools better for our clients. After supporting thousands of elections, we still help implement our software with care and deference for each election. We can guarantee that you will get the system you want from your very first implementation.” 
+                “The strong partnerships we have formed with election
+                administrators over the years have helped us continuously
+                improve our PollChief<sup>®</sup> Election management system
+                since 2006. Each partnership is a special opportunity to make
+                these tools better for our clients. After supporting thousands
+                of elections, we still help implement our software with care and
+                deference for each election. We can guarantee that you will get
+                the system you want from your very first implementation.”
               </p>
-              <i class="f-16 font-cardo   text-lightt-2">
+              <i class="f-16 font-cardo text-lightt-2">
                 ~ Eugene Yu, Founder and Pesident
               </i>
             </div>
@@ -440,10 +449,19 @@
       crossorigin="anonymous"
     ></script>
     <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
-    <script>
+   <script>
+
+let searchParams = new URLSearchParams(window.location.search);
+
+if (searchParams.has("email")) {
+  $("#email2").val(searchParams.get("email"));
+}
+
       $(".js-example-placeholder-multiple").select2({
         placeholder: "Products",
       });
+      
     </script>
+  
   </body>
 </html>

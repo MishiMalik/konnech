@@ -160,7 +160,7 @@
                 </p>
                 <div class="t-center">
                   <button class="nav-btn ml-1">
-                    <a class="nav-link" href="#">Schedule A Demo</a>
+                    <a class="nav-link" href="demo.html">Schedule A Demo</a>
                   </button>
                 </div>
               </div>
@@ -182,11 +182,7 @@
             <div class="col-lg-12 mx-auto">
               <div class="row mt-3 d-flex align-items-center">
                 <h2 class="f-46">Our MyBallot Tracking System Can:</h2>
-                <p class="f-18">
-                  If you can dream it,  PollChief<sup>®</sup> can do it! We pride ourselves
-                  on being a company that adapts our software tools to fit the
-                  election manager process.
-                </p>
+                
                 <div class="col-lg-4 d-flex justify-content-center">
                   <img
                     src="images/Group 232.svg"
@@ -233,7 +229,11 @@
                         in order to ensure voters get the information they need.
                       </p>
                     </li>
-
+                   
+                    <p class="f-18">
+                      If you can dream it,  PollChief<sup>®</sup> can do it! We pride ourselves
+                      on adapting our software tools to fit the election manager process.
+                    </p>
                     <!-- <li>
                                             <p class="font-cardo f-16">Validation of all inputs from untrusted sources.
 
@@ -265,17 +265,17 @@
                   <div
                     class="col-lg-5 d-flex justify-content-center align-items-center"
                   >
-                    <div class="demo-input w-100">
-                      <input
-                        type="text"
-                        name=""
-                        id=""
-                        placeholder="Email Address"
-                      />
-                      <button class="nav-btn ml-1 email-btn">
-                        <a class="nav-link" href="demo.html">Schedule A Demo</a>
-                      </button>
-                    </div>
+                  <div class="demo-input w-100">
+                    <input 
+                      type="email"
+                      name=""
+                      id="email1"
+                      placeholder="Email Address"
+                    />
+                    <button class="nav-btn ml-1 email-btn" id="demo-btn">
+                      <a  class="nav-link" >Schedule A Demo</a>
+                    </button>
+                  </div>
                   </div>
                 </div>
               </div>
@@ -447,5 +447,10 @@
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
+    <script >
+      $('#demo-btn').click(function(){
+    window.location.href = 'demo.html?email=' + $('#email1').val();
+    })
+    </script>
   </body>
 </html>

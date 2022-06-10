@@ -175,6 +175,10 @@ main {
 .nav-btn a{
   white-space: nowrap;
 }
+.cards-section{
+position: relative;
+z-index: 5;
+}
 /* section 2 */
 .partners {
   padding: 30px 50px 30px 50px;

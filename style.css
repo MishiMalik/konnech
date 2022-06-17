@@ -12,7 +12,7 @@ body {
   font-family: "Cardo", serif !important;
 } */
 main {
-  margin-top: 120px !important;
+  margin-top: 100px !important;
 }
 /* =============================fonts start
 ============================================= */
@@ -67,6 +67,9 @@ main {
 .text-blue {
   color: #31406d;
 }
+.text-blue2{
+  color: #31406D;
+}
 .text-lightt {
   color: rgba(112, 112, 112, 0.706);
 }
@@ -75,6 +78,9 @@ main {
 }
 .text-lightt-3 {
   color: #c1c6d3;
+}
+.no-decoration{
+  text-decoration: none !important;
 }
 
 /* font wights */
@@ -276,11 +282,14 @@ z-index: 5;
 /* footer */
 .footer {
   background-color: #31406d;
-  padding: 50px 0px;
+  padding: 50px 0px 30px 0px;
 }
 .footicon {
   height: 22px;
   width: 22px;
+}
+.switch{
+  border-radius: 7px;
 }
 .foot-img img {
   height: 68px;
